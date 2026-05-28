@@ -1,0 +1,280 @@
+
+.hero-section {
+
+  text-align: center;
+
+  padding: 100px 20px 60px;
+
+}
+
+.hero-title {
+
+  font-size: 56px;
+
+  font-weight: 700;
+
+  color: #0f172a;
+
+  margin-bottom: 20px;
+
+  line-height: 1.1;
+
+}
+
+.hero-subtitle {
+
+  font-size: 20px;
+
+  color: #64748b;
+
+  max-width: 700px;
+
+  margin: auto;
+
+  line-height: 1.7;
+
+  margin-bottom: 35px;
+
+}
+
+.hero-btn {
+
+  background: #4965a2;
+
+  color: white;
+
+  border: none;
+
+  padding: 16px 32px;
+
+  border-radius: 14px;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+
+}
+
+.hero-btn:hover {
+
+  background: #1d4ed8;
+
+  transform: translateY(-3px);
+
+}.home-container {
+  padding: 40px;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 42px;
+}
+
+.home-container {
+
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 40px 20px 80px;
+
+}
+
+.home-title {
+
+  font-size: 42px;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+
+  color: #0f172a;
+
+}
+
+.blog-card {
+
+  background: white;
+
+  border-radius: 24px;
+
+  padding: 30px;
+
+  margin-bottom: 30px;
+
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.05);
+
+  transition: 0.3s ease;
+
+}
+
+.blog-card:hover {
+
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+.blog-title {
+
+  font-size: 34px;
+
+  margin-bottom: 18px;
+
+  color: #0f172a;
+
+}
+
+.blog-content {
+
+  font-size: 17px;
+
+  line-height: 1.8;
+
+  color: #475569;
+
+  margin-bottom: 25px;
+
+}
+
+.blog-author {
+
+  color: #94a3b8;
+
+  font-size: 15px;
+
+}
+
+.blog-actions {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 14px;
+
+  margin-top: 25px;
+
+}
+
+.action-btn {
+
+  border: none;
+
+  padding: 10px 18px;
+
+  border-radius: 12px;
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+
+}
+
+.edit-btn {
+
+  background: #2563eb;
+
+  color: white;
+
+}
+
+.edit-btn:hover {
+
+  background: #1d4ed8;
+
+}
+
+.delete-btn {
+
+  background: #ef4444;
+
+  color: white;
+
+}
+
+.delete-btn:hover {
+
+  background: #dc2626;
+
+}
+
+.read-btn {
+
+  text-decoration: none;
+
+  color: #2563eb;
+
+  font-weight: 600;
+
+  font-size: 15px;
+
+}
+
+.blog-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.blog-content {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.blog-author {
+  color: gray;
+}
+.blog-content {
+  margin: 15px 0;
+  color: #444;
+  line-height: 1.6;
+}
+.like-section {
+
+  margin-top: 18px;
+
+}
+
+.like-btn {
+
+  background: #fff1f2;
+
+  color: #e11d48;
+
+  border: none;
+
+  padding: 10px 18px;
+
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+  font-size: 15px;
+
+  transition: 0.3s ease;
+
+}
+
+.like-btn:hover {
+
+  transform: scale(1.05);
+
+  background: #ffe4e6;
+
+}
