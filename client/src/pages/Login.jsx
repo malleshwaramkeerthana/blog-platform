@@ -23,46 +23,43 @@ function Login() {
 
   };
 
-  const handleSubmit = async (e) => {
+ const handleSubmit = async (e) => {
 
-    e.preventDefault();
+  e.preventDefault();
 
-    try {
+  try {
 
-      const res = await API.post(
-        "/auth/login",
-        formData
-      );
+    const res = await API.post(
+      "/auth/login",
+      formData
+    );
 
-      localStorage.setItem(
-        "token",
-        res.data.token
-      );
-      localStorage.setItem(
-  "username",
-  res.data.username
-);
-localStorage.setItem(
-  "email",
-  res.data.user.email
-);
+    console.log(res.data);
 
-      alert("Login successful!");
+    localStorage.setItem(
+      "token",
+      res.data.token
+    );
 
-      navigate("/");
+    localStorage.setItem(
+      "username",
+      res.data.user.username
+    );
 
-      window.location.reload();
+    navigate("/");
 
-    } catch (error) {
+  } catch (error) {
 
-      console.log(error);
+    console.log(error);
 
-      alert("Login failed");
+    alert(
+      error.response?.data?.message ||
+      "Login failed"
+    );
 
-    }
+  }
 
-  };
-
+};
   return (
 
     <div className="auth-container">
